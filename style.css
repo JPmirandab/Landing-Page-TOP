@@ -91,3 +91,87 @@ header{
     width: 400px;
     height: 200px;
 }
+
+/* Seção Secundária */
+.section-images{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 80px;
+}
+
+.section-images img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.section-images h2{
+    margin-bottom: 50px;
+}
+
+.boxes{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    border: solid 4px #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext{
+    margin: 8px;
+    padding: 0;
+    width: 150px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+}
+
+/* Frase */
+.frase{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 100%;
+    padding: 100px 100px;
+}
+
+.frase p{
+    margin: 0;  
+}
+
+.box-frase{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.frase .text{
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+.autor{
+    font-weight: 900;
+    align-self: flex-end;
+    padding-right: 20px;
+}
