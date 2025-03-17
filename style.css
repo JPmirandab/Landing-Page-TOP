@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 70px 100px;
+}
+
+/* Cabeçalho */
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.top p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.top ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.top a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+
+/* Seção Prncipal */
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.title-texts{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 10px;
+
+}
+
+.title-texts button{
+    width: 100px;
+    padding: 6px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.title-texts button:hover{
+    cursor: pointer;
+}
+
+.principal-text{
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtitle{
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.title img{
+    width: 400px;
+    height: 200px;
+}
